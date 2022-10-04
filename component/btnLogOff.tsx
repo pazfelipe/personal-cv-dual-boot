@@ -5,7 +5,6 @@ const BtnLogOff = () => {
   const router = useRouter();
 
   const handlgeLogOff = () => {
-    // localStorage.removeItem('booted');
     router.replace('/logoff');
   };
 

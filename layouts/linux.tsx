@@ -1,5 +1,6 @@
 import React from 'react';
 import BtnLogOff from '../component/btnLogOff';
+import BtnShutDown from '../component/btnShutDown';
 
 const LinuxLayout = () => {
 
@@ -7,6 +8,8 @@ const LinuxLayout = () => {
     <div>
       <h1>Linux</h1>
       <BtnLogOff />
+      <hr />
+      <BtnShutDown />
     </div>
   );
 };
